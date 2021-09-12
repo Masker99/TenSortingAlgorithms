@@ -1,9 +1,9 @@
 public class ShellSort {
     public int[] ShellSort(int[] arr){
         int length = arr.length;
-        for(int gap = length / 2 ; gap > 0 ; gap /=2){
-            for(int begin = gap ; begin < length ; begin++)
-            InsertionSort(arr,gap,begin);
+        for(int gap = length / 2 ; gap > 0 ; gap /=2){          //获取间隔数
+            for(int begin = gap ; begin < length ; begin++)     //获取每组的第二个元素的下标值，进行插入排序
+                InsertionSort(arr,gap,begin);
         }
         return arr;
     }
