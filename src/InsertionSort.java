@@ -1,3 +1,6 @@
+/**
+ * @author Masker
+ */
 public class InsertionSort {
     public int[] InsertionSort(int[] arr){
         int length = arr.length;
@@ -13,7 +16,7 @@ public class InsertionSort {
     }
 
     public static void main(String[] args){
-        int[] arr = {4,2,6,3,9,8};
+        int[] arr ={4, 2, 6, 3, 9, 8};
         InsertionSort is = new InsertionSort();
         is.InsertionSort(arr);
 
