@@ -4,6 +4,9 @@ import java.util.Arrays;
  * 计数排序
  * 假设原始数组的大小为N，最大最小差值为M
  * 时间复杂度：O（N+M），空间复杂度：O（N）
+ * 注意：
+ * 1、计数排序适合数列元素是整数的情况
+ * 2、当数列元素的最大值最小值的差值过大时，不适合计数排序，会增加空间复杂度、时间复杂度
  * @author Masker
  */
 public class CountSort {
